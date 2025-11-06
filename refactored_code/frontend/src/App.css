@@ -1,0 +1,66 @@
+.App {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.metric-card {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 4px solid #1f77b4;
+  margin: 0.5rem 0;
+}
+
+.info-box {
+  background-color: #e3f2fd;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.warning-box {
+  background-color: #fff3e0;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.chart-container {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.probability-card {
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.seasonal-analysis {
+  margin: 2rem 0;
+}
+
+.trend-prediction {
+  margin: 2rem 0;
+}
+
+.data-summary {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
